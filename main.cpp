@@ -15,6 +15,14 @@ int main()
   cout<<"what is your last name?\n";
   cin>>lastname;
   cout<<"Your first name is:"<<firstname<<" and your last name is:"<<lastname<<endl;
+ 
+  std::string nickname;
+  nickname.push_back(firstname[0]);
+  nickname.push_back('.');
+  nickname.push_back(lastname[0]);
+  nickname.push_back('.');
+  cout<<"Welcome,"<<nickname<<", here is your fortune"<<endl;
+
   //tell fortune
 
   return 0;
