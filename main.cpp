@@ -39,14 +39,10 @@ int main()
   int len= lastname.length();  
   if(lastname[len - 1] == 'a'||lastname[len - 1] == 'e'||lastname[len - 1] == 'i'||lastname[len - 1] == 'o'||lastname[len - 1] == 'u')
   {
-  cout<<"you have already met your true love.";
-  }
-  else
-  {
-  cout<<"-——-———-———-———-———-———-———-———-———-———-———-———-———-——-";
+  cout<<"you have already met your true love."<<endl;
   }
   // have a good day!
-  cout<<endl<<"have a good day!\n";
+  cout<<"have a good day!\n";
  
   return 0;
 }
