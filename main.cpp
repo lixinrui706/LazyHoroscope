@@ -16,6 +16,7 @@ int main()
   cin>>lastname;
  
   std::string nickname;
+  nickname.push_back(' ');
   nickname.push_back(firstname[0]);
   nickname.push_back('.');
   nickname.push_back(lastname[0]);
