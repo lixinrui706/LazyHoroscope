@@ -12,9 +12,8 @@ int main()
   //get user input
   cout<<"What is your first name?\n";
   cin>>firstname;
-  cout<<"what is your last name?\n";
+  cout<<"What is your last name?\n";
   cin>>lastname;
-  cout<<"Your first name is:"<<firstname<<" and your last name is:"<<lastname<<endl;
  
   std::string nickname;
   nickname.push_back(firstname[0]);
@@ -39,7 +38,7 @@ int main()
   int len= lastname.length();  
   if(lastname[len - 1] == 'a'||lastname[len - 1] == 'e'||lastname[len - 1] == 'i'||lastname[len - 1] == 'o'||lastname[len - 1] == 'u')
   {
-  cout<<"you have already met your true love.\n";
+  cout<<"you have already met your true love.";
   }
   // have a good day!
   cout<<endl<<"Have a nice day!\n";
