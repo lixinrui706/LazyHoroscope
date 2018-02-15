@@ -20,11 +20,11 @@ int main()
   nickname.push_back('.');
   nickname.push_back(lastname[0]);
   nickname.push_back('.');
-  cout<<"Welcome,"<<nickname<<", here is your fortune"<<endl;
+  cout<<"Welcome,"<<nickname<<", here is your fortune..."<<endl;
   
   //tell fortune
   
-  cout<<"Your lucky number is "<<firstname.length()<<endl;
+  cout<<"your lucky number is "<<firstname.length()<<endl;
   //voewl
   if(firstname[0] == 'a'||firstname[0] == 'e'||firstname[0] == 'i'||firstname[0] == 'o'||firstname[0] == 'u'||firstname[0] == 'A'||firstname[0] == 'E'||
   firstname[0] == 'I'||firstname[0] == 'O'||firstname[0] == 'U')
@@ -41,6 +41,6 @@ int main()
   cout<<"you have already met your true love.";
   }
   // have a good day!
-  cout<<endl<<"Have a nice day!\n";
+  cout<<endl<<"have a good day!\n";
   return 0;
 }
