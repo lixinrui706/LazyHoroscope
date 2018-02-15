@@ -41,6 +41,10 @@ int main()
   {
   cout<<"you have already met your true love.";
   }
+  else
+  {
+  cout<<"-------------------------------------------------------------";
+  }
   // have a good day!
   cout<<endl<<"have a good day!\n";
   return 0;
